@@ -21,6 +21,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                "primary-color": '#FFDC26',
               }
             }
           }
@@ -34,11 +35,35 @@
         }
       </style>
 </head>
+
 <body class="fonts">
     <!-- header -->
-     <header>
- <h1>Hello world</h1>
- <button class="btn">sell</button>
+     <header class="bg-[#FFF9F4]">
+        <!-- navber -->
+         <nav class="">
+            <div class="navbar md:container mx-auto">
+                <div class="navbar-start">
+                  
+                  <img src="./c1-assets/logo-header.png" alt="" class="mr-2">
+                  <h2 class="lg:block hidden">Browse<span class="text-primary-color">4</span>Pets</h2>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-3 ">
+                    <i class="lg:block hidden text-xl fa-solid fa-bell"></i>
+                    <i class="lg:block hidden text-xl fa-solid fa-magnifying-glass"></i>
+                <button class="lg:block hidden px-10 py-30 btn btn-outline font-normal "style="border-color: #FFDC26; color: black;">Login</button>
+                  <button class="lg:block hidden btn font-normal bg bg-primary-color px-10 py-30">Register</button>
+                  <i class="text-2xl lg:hidden sm:block fa-solid fa-bars"></i>
+                </div>
+                
+              </div>
+         </nav>
      </header>
      <!-- main -->
       <main>
